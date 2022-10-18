@@ -1,0 +1,8 @@
+--- a/test/helper.rb
++++ b/test/helper.rb
+@@ -5,4 +5,4 @@
+ 
+ $VERBOSE = 1
+ 
+-require_relative '../lib/connection_pool'
++require 'connection_pool'

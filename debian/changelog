@@ -1,0 +1,38 @@
+ruby-connection-pool (2.2.2-1) unstable; urgency=medium
+
+  [ Lucas Kanashiro ]
+  * debian/control: add Testsuite field (Closes: #830077)
+
+  [ Pirate Praveen ]
+  * New upstream version 2.2.2
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Move debian/watch to gemwatch.debian.net
+  * Update my display name in Uploaders
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 12 Oct 2018 23:18:35 +0530
+
+ruby-connection-pool (2.2.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump standards version to 3.9.6
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 02 May 2015 17:43:12 +0530
+
+ruby-connection-pool (2.0.0-1) unstable; urgency=low
+
+  * Team upload 
+  * New upstream release
+  * Bumped standards to 3.9.5
+  * Added build depends on ruby-minitest
+  * updated d/ruby-connection-pool.docs to install docs
+
+ -- Nitesh A Jain <niteshjain92@gmail.com>  Sun, 06 Apr 2014 22:55:02 +0530
+
+ruby-connection-pool (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #708702)
+
+ -- Praveen Arimbrathodiyil <praveen@debian.org>  Sat, 18 May 2013 01:25:06 +0530

@@ -1,0 +1,25 @@
+Source: ruby-connection-pool
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 11~),
+               gem2deb,
+               ruby-minitest
+Standards-Version: 4.2.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-connection-pool.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-connection-pool
+Homepage: https://github.com/mperham/connection_pool
+XS-Ruby-Versions: all
+Testsuite: autopkgtest-pkg-ruby
+
+Package: ruby-connection-pool
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: generic connection pool for ruby
+ MongoDB has its own connection pool.  ActiveRecord has its own connection pool.
+ This is a generic connection pool that can be used with anything, e.g. Redis,
+ Dalli and other Ruby network clients.
